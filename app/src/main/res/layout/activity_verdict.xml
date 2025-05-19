@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".MainVerdict">
+
+    <!--Textview for the verdict message-->
+    <TextView
+        android:id="@+id/viewVerdictTxt"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="View your verdict"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <!--Textview for question 1-->
+    <TextView
+        android:id="@+id/question1Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="The apartheid rule was established in the 19th century"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <!--Textview for the answer to question 1-->
+    <TextView
+        android:id="@+id/answer1Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="It was established in the 20th century, specifically 1948"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <!--Textview for question 2-->
+    <TextView
+        android:id="@+id/question2Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="The san people are the indigenous people of south africa"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <!--Textview for the answer to question 2-->
+    <TextView
+        android:id="@+id/answer2Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="The san people are the indigenous people of south africa"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <!--Textview for question 3-->
+    <TextView
+        android:id="@+id/question3Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="South Africa gained independence from Britain in 1910"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <!--Textview for the answer to question 3-->
+    <TextView
+        android:id="@+id/answer3Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="South Africa gained independence from Britain in 1910"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <!--Textview for question 4-->
+    <TextView
+        android:id="@+id/question4Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="The Sharpeville massacre occurred on April 1, 1960"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <!--Textview for the answer to question 4-->
+    <TextView
+        android:id="@+id/answer4Txt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="It occurred on March 21, 1960"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <!--Textview for question 5-->
+    <TextView
+        android:id="@+id/question5Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Desmond Tutu was a key figure in the anti-apartheid movement"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <!--Textview for the answer to question 5-->
+    <TextView
+        android:id="@+id/answer5Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:text="Desmond Tutu was a key figure in the anti-apartheid movement"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <!--LinearLayout for making the buttons horizontal-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <!--Button for the fresh start button-->
+        <Button
+            android:id="@+id/freshStartBtn"
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/celeste"
+            android:text="Fresh Start"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <!--Button for the leave button-->
+        <Button
+            android:id="@+id/leaveBtn"
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/celeste"
+            android:text="Leave"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

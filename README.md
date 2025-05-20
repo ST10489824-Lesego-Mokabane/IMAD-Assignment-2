@@ -23,7 +23,9 @@ questions assumptions or facts that are only partially remembered, which promote
 
 <b>The design of the app:</b>
 
+The app is easy to navigate as the buttons and the textviews are spaced out and alligned correctly, the approruate size and color for the texts was used in order to prevent not beign able to read the questions or texts properly. The UI is very creative and fun as the background is history related which makes the app more intresing and fun to use. 
 
+There are big buttons and a colorful background image, the app is designed in a way that can grab the attention of any one because of the vibrant background image that is used, some buttons are placed horizontally which makes it easuer to navigate the buttons and Linear Layout was used and this layout provides a clear and neat format.
 <br>
 
 <b>How to use the application</b>

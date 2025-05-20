@@ -5,11 +5,9 @@ This README file contains two links which is the link to my repository and my yo
 
 <b>THE LINK TO MY REPOSITORY IS BELOW:</b>
 
-<br>
 
 <b>THE LINK TO MY YOUTUBE VIDEO IS BELOW:</b>
 
-<br>
 
 <b>The Purpose:</b>
 
@@ -30,8 +28,7 @@ There are big buttons and a colorful background image, the app is designed in a 
 
 <b>How to use the application</b>
  
-Open the App
-
+Open the App:
 You will see a Home Screen with a welcome message and the app description and buttons to start and stop.
 
 Launch the quiz activity: Each question is displayed individually.

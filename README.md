@@ -71,7 +71,7 @@ Screenshot when you guessed the wrong answer
 Screenshot when your answer is correct
 ![HAW1-2025 (1) - lab-f3bb02a4-0730-4e14-b9d6-2c527a5e01d3 westeurope cloudapp azure com_7060 - Remote Desktop Connection 2025_05_20 17_38_11](https://github.com/user-attachments/assets/9a8c6e12-2a07-43cd-86b0-7195d7c855ff)
 
-Screenshot when you got 3 answers right
+Screenshot when you got above 3 answers right
 ![HAW1-2025 (1) - lab-f3bb02a4-0730-4e14-b9d6-2c527a5e01d3 westeurope cloudapp azure com_7060 - Remote Desktop Connection 2025_05_20 17_38_30](https://github.com/user-attachments/assets/c8cd7a37-d233-4fcc-83fc-ed8b1d4a64cf)
 
 Screenshot when you got below 3 answers wrong

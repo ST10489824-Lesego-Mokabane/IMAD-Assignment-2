@@ -23,6 +23,7 @@ questions assumptions or facts that are only partially remembered, which promote
 
 <b>The design of the app:</b>
 
+
 <br>
 
 <b>How to use the application</b>
@@ -44,3 +45,23 @@ Once you've viwed your ranking you will click the view verdict button which will
 <br>
 
 <b>Utilization of GitHub and GitHub Ations:</b>
+
+In order to take your application from android studio to GitHub you have to:
+
+Close the project on Android Studio and right click the app then click show in explorer and the you select open Git Bash here
+
+Then you will use the following git commands:
+
+git init - This initialzes the repository
+
+git add . - With this step you are commiting the files, when you get a notepad popup you will close it
+
+git commit -m "First commit" - This adds a message
+
+git remote add origin <repository link>  - You paste your repository after the origin, this verifies the repository
+
+git push origin main -This uploades the commits from your main branch to the repository
+
+git pull origin main --allow-unrelated-histories -This will help with resolve with any conflicts
+
+<b>Screenshots from the App</b>

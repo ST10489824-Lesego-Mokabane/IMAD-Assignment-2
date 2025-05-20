@@ -30,6 +30,7 @@ class MainVerdict : AppCompatActivity() {
         val answers = intent.getBooleanArrayExtra("answers")
 
         val viewVerdict = StringBuilder()
+        
         //Code attribution for logical operators
         //This method was taken from the
         //IMAD5112 Module Manual 2025

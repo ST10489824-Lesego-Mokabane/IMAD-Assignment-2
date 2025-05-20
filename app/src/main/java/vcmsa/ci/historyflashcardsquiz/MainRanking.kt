@@ -47,7 +47,7 @@ class MainRanking : AppCompatActivity() {
             // Starts the review Screen and pass the questions and answers
             val intent = Intent(this, MainVerdict::class.java)
             intent.putExtra("questions", MainQuiz.questions)
-            intent.putExtra("questions", MainQuiz.answers)
+            intent.putExtra("answers", MainQuiz.answers)
             startActivity(intent)
         }
 

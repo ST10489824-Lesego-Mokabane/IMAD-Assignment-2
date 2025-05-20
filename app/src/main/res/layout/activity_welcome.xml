@@ -42,7 +42,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="@color/celeste"
         android:text="Dive in"
         android:textColor="@color/black"
         android:textSize="20sp" />
@@ -56,7 +55,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="15dp"
-        android:backgroundTint="@color/celeste"
         android:text="Complete"
         android:textColor="@color/black"
         android:textSize="20sp" />

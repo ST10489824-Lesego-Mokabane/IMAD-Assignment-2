@@ -13,7 +13,12 @@ class MainWelcome : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_welcome)
 
-        // Initializing all elements
+        //Code attribution for linking elements by ID
+        //This method was taken from the
+        //IMAD5112 Module Manual 2025
+        //Page 41
+
+        // Linking all elements by their IDs
         val welcomeTxt = findViewById<TextView>(R.id.welcomeTxt)
         val descriptionTxt = findViewById<TextView>(R.id.descriptionTxt)
         val diveInButton = findViewById<Button>(R.id.diveInBtn)
@@ -25,6 +30,11 @@ class MainWelcome : AppCompatActivity() {
 
         // Adding functionality to the dive in button
         diveInButton.setOnClickListener {
+            //Code attribution for the start activity
+            //This method was taken from the
+            //IMAD5112 Module Manual 2025
+            //Page 64
+
             // To start the quiz activity
             val intent = Intent(this, MainQuiz::class.java)
             startActivity(intent)

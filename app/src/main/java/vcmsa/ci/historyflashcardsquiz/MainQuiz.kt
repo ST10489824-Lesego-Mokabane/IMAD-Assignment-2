@@ -20,6 +20,11 @@ class MainQuiz : AppCompatActivity() {
     private lateinit var nextQuestionButton: Button
 
     companion object {
+        //Code attribution for array
+        //This method was taken from the
+        // IMAD5112 Module Manual 2025
+        //Page 76
+
         // The questions which are going to be displayed
         val questions = arrayOf(
             "The apartheid rule was established in the 19th century",
@@ -40,6 +45,11 @@ class MainQuiz : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_quiz)
 
+        //Code attribution for linking elements by ID
+        //This method was taken from the
+        // IMAD5112 Module Manual 2025
+        //Page 41
+
         // Finding the views by their IDs
         questionMessage = findViewById(R.id.questionMessageTxt)
         questionsTxt = findViewById(R.id.questionsTxt)
@@ -58,12 +68,21 @@ class MainQuiz : AppCompatActivity() {
         // Adding functionality to the next question button
         nextQuestionButton.setOnClickListener {
             currentQuestionIndex++
+            //Code attribution for the IF, else statements
+            //This method was taken from the
+            //IMAD5112 Module Manual 2025
+            //Page 49
             if (currentQuestionIndex < questions.size) {
                 displayQuestion()
                 outputTxt.text = "" // Clears the output
                 trueButton.isEnabled = true // Enables the buttons
                 falseButton.isEnabled = true
             } else {
+                //Code attribution for the start activity
+                //This method was taken from the
+                //IMAD5112 Module Manual 2025
+                //Page 64
+
                 // Starts the next activity
                 val intent = Intent(this, MainRanking::class.java)
                 intent.putExtra("ranking", ranking)
@@ -83,6 +102,10 @@ class MainQuiz : AppCompatActivity() {
     private fun checkAnswer(userAnswer: Boolean) {
         val correctAnswer = answers[currentQuestionIndex]
 
+        //Code attribution for the IF, else statements
+        //This method was taken from the
+        //IMAD5112 Module Manual 2025
+        //Page 49
         if (userAnswer == correctAnswer) {
             outputTxt.text = "Accurate!"
             outputTxt.setTextColor(Color.GREEN)

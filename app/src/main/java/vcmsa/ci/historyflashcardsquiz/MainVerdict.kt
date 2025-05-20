@@ -14,7 +14,12 @@ class MainVerdict : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_verdict)
 
-        // Initializing the elements
+        //Code attribution for linking elements by ID
+        //This method was taken from the
+        //IMAD5112 Module Manual 2025
+        //Page 41
+
+        // Linking all the elements
         val viewVerdictTxt = findViewById<TextView>(R.id.viewVerdictTxt)
         val freshStartBtn = findViewById<Button>(R.id.freshStartBtn)
         val leaveBtn = findViewById<Button>(R.id.leaveBtn)
@@ -25,8 +30,16 @@ class MainVerdict : AppCompatActivity() {
         val answers = intent.getBooleanArrayExtra("answers")
 
         val viewVerdict = StringBuilder()
+        //Code attribution for logical operators
+        //This method was taken from the
+        //IMAD5112 Module Manual 2025
+        //Page 52
         if (questions != null && answers != null && questions.size == answers.size) {
             for (i in questions.indices) {
+                //Code attribution for representing a new line and leaving one line open
+                //This method was taken from the
+                //IMAD5112 Module Manual 2025
+                //Page 67
                 viewVerdictTxt.append("${i + 1}. ${questions[i]}\n")
                 viewVerdictTxt.append("   Answer: ${if (answers[i]) "True" else "False"}\n\n")
             }
@@ -37,6 +50,10 @@ class MainVerdict : AppCompatActivity() {
 
         // Adding functionality to the fresh start button
         freshStartBtn.setOnClickListener {
+            //Code attribution for the start activity
+            //This method was taken from the
+            //IMAD5112 Module Manual 2025
+            //Page 64
             startActivity(Intent(this, MainQuiz::class.java))
         }
 

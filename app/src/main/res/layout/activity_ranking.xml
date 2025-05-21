@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".MainRanking">
+
+    <!--Textview for the ranking message-->
+    <TextView
+        android:id="@+id/rankingMessageTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Ranking:"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp" />
+
+    <!--Textview to display the ranking-->
+    <TextView
+        android:id="@+id/rankingTxt"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text=""
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="50dp"/>
+
+    <!--Textview to display the comments-->
+    <TextView
+        android:id="@+id/commentsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:text=""
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="60dp"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <!--Button to check verdict-->
+    <Button
+        android:id="@+id/checkVerdictBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Check Verdict"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <!--Button to terminate the app-->
+    <Button
+        android:id="@+id/terminateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Terminate"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

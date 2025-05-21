@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".MainWelcome">
+
+    <!--TextView for the welcome message-->
+    <TextView
+        android:id="@+id/welcomeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
+        android:text="Welcome to History True/False Quiz!!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <!--Textview for the description of the app-->
+    <TextView
+        android:id="@+id/descriptionTxt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="Test your brain one statement at a time!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <!--Button to start the quiz-->
+    <Button
+        android:id="@+id/diveInBtn"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="10dp"
+        android:text="Dive in"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!--Button to close the app-->
+    <Button
+        android:id="@+id/completeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="15dp"
+        android:text="Complete"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

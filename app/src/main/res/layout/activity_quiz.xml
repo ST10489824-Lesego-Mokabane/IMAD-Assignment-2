@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".MainQuiz">
+
+    <!--Textview for question message-->
+    <TextView
+        android:id="@+id/questionMessageTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30dp"
+        android:text="Get ready to show off your skills!"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <!--Textview to display the questions-->
+    <TextView
+        android:id="@+id/questionsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="35dp"
+        android:text=""
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+
+    <!--Linear layout to make the buttons horizontal-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--True button-->
+        <Button
+            android:id="@+id/trueBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:text="True"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <!--False button-->
+        <Button
+            android:id="@+id/falseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:text="False"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <!--Textview to display the output-->
+    <TextView
+        android:id="@+id/outputTxt"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <!--Button for the next question-->
+    <Button
+        android:id="@+id/nextQuestionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="15dp"
+        android:text="Next Question"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

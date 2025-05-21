@@ -6,8 +6,8 @@ This README file contains two links which is the link to my repository and my yo
 <b>THE LINK TO MY REPOSITORY :</b>
 https://github.com/ST10489824-Lesego-Mokabane/IMAD-Assignment-2.git
 
-<b>THE LINK TO MY YOUTUBE VIDEO IS BELOW:</b>
-
+<b>THE LINK TO MY YOUTUBE VIDEO:</b>
+https://youtu.be/_fJ0ewARnEA
 
 <b>The Purpose:</b>
 
